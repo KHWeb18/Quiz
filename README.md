@@ -584,7 +584,7 @@ book에 있는 title 외의 정보들을 출력해보도록 한다!
 ## 76. querySelectorAll 응용
 
 ```html
-<div id="#vueapp">
+<div id="vueapp">
     <p style="visibility: hidden">우왕 많다.</p>
     <p style="visibility: hidden">오진다.</p>
     <p style="visibility: hidden">켁</p>
