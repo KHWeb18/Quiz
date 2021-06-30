@@ -559,3 +559,24 @@ book에 있는 title 외의 정보들을 출력해보도록 한다!
 9. 게시물 삭제
 10. 게시물 조회
 ```
+
+## 75. querySelector 응용
+
+```html
+<div id="container">
+    <h2>사용자 정보 등록</h2>
+    <form>
+        <input type="text" id="name" value="이름">
+        <input type="text" id="age" value="나이">
+        <input type="text" id="major" value="전공">
+        <button type="button" id="add" class="addBtn">추가하기</button>
+    </form>
+    <div id="userList"></div>
+</div>
+<script src="js/userList.js"></script>
+```
+
+```make
+오늘 진행한 체크리스트 예제를 응용해보는 문제다.
+위 HTML 코드를 활용해서 이름, 나이, 전공이 추가되게 만들어보자!
+```
