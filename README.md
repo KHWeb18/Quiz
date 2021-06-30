@@ -580,3 +580,21 @@ book에 있는 title 외의 정보들을 출력해보도록 한다!
 오늘 진행한 체크리스트 예제를 응용해보는 문제다.
 위 HTML 코드를 활용해서 이름, 나이, 전공이 추가되게 만들어보자!
 ```
+
+## 76. querySelectorAll 응용
+
+```html
+<div id="#vueapp">
+    <p style="visibility: hidden">우왕 많다.</p>
+    <p style="visibility: hidden">오진다.</p>
+    <p style="visibility: hidden">켁</p>
+    <p style="visibility: hidden">많다.</p>
+    <p style="visibility: hidden">살려주세요</p>
+    <p style="visibility: hidden">공부할 분량이 너무 많아요</p>
+</div>
+```
+
+```make
+여태까지 학습한 내용을 기반으로 querySelectorAll을 활용해서
+짝수번째에 해당하는 p 태그만 visible로 변경해보자!
+```
